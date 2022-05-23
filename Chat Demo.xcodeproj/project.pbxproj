@@ -13,6 +13,10 @@
 		649AACFC28375DD300761BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649AACFA28375DD300761BD4 /* Main.storyboard */; };
 		649AACFE28375DD600761BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649AACFD28375DD600761BD4 /* Assets.xcassets */; };
 		649AAD0128375DD600761BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649AACFF28375DD600761BD4 /* LaunchScreen.storyboard */; };
+		649AAD0928375F2A00761BD4 /* ChattingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649AAD0828375F2A00761BD4 /* ChattingTableViewController.swift */; };
+		649AAD0B28375F3C00761BD4 /* ChattingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649AAD0A28375F3C00761BD4 /* ChattingTableViewCell.swift */; };
+		649AAD0D2837868900761BD4 /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649AAD0C2837868900761BD4 /* ChattingViewController.swift */; };
+		649AAD0F28378B5000761BD4 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649AAD0E28378B5000761BD4 /* MessageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		649AACFD28375DD600761BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		649AAD0028375DD600761BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		649AAD0228375DD600761BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649AAD0828375F2A00761BD4 /* ChattingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingTableViewController.swift; sourceTree = "<group>"; };
+		649AAD0A28375F3C00761BD4 /* ChattingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingTableViewCell.swift; sourceTree = "<group>"; };
+		649AAD0C2837868900761BD4 /* ChattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
+		649AAD0E28378B5000761BD4 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,8 @@
 		649AACE828375DD300761BD4 = {
 			isa = PBXGroup;
 			children = (
+				649AAD0E28378B5000761BD4 /* MessageTableViewCell.swift */,
+				649AAD0C2837868900761BD4 /* ChattingViewController.swift */,
 				649AACF328375DD300761BD4 /* Chat Demo */,
 				649AACF228375DD300761BD4 /* Products */,
 			);
@@ -60,6 +70,8 @@
 				649AACF628375DD300761BD4 /* SceneDelegate.swift */,
 				649AACF828375DD300761BD4 /* ViewController.swift */,
 				649AACFA28375DD300761BD4 /* Main.storyboard */,
+				649AAD0828375F2A00761BD4 /* ChattingTableViewController.swift */,
+				649AAD0A28375F3C00761BD4 /* ChattingTableViewCell.swift */,
 				649AACFD28375DD600761BD4 /* Assets.xcassets */,
 				649AACFF28375DD600761BD4 /* LaunchScreen.storyboard */,
 				649AAD0228375DD600761BD4 /* Info.plist */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649AAD0F28378B5000761BD4 /* MessageTableViewCell.swift in Sources */,
+				649AAD0D2837868900761BD4 /* ChattingViewController.swift in Sources */,
 				649AACF928375DD300761BD4 /* ViewController.swift in Sources */,
+				649AAD0B28375F3C00761BD4 /* ChattingTableViewCell.swift in Sources */,
 				649AACF528375DD300761BD4 /* AppDelegate.swift in Sources */,
 				649AACF728375DD300761BD4 /* SceneDelegate.swift in Sources */,
+				649AAD0928375F2A00761BD4 /* ChattingTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
